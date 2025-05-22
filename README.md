@@ -29,7 +29,7 @@ This project uses an ESP8266 microcontroller with an ultrasonic sensor and I2C L
 
 ## Mathematical Equations
 
-![Alt text](https://raw.githubusercontent.com/avimallik/aqua_esp8266_iot_water_level_monitoring/refs/heads/master/equation/ultrasonic_distance_measure.PNG)
+![Alt text](https://raw.githubusercontent.com/avimallik/aqua_esp8266_iot_water_level_monitoring/refs/heads/master/equation/img_ultrasonic_distance_measure.PNG)
 ---
 
 ## Software Details
