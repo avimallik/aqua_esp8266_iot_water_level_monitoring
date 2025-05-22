@@ -29,35 +29,7 @@ This project uses an ESP8266 microcontroller with an ultrasonic sensor and I2C L
 
 ## Mathematical Equations
 
-### 1. Distance Calculation (cm)
-
-\[
-\text{distanceCm} = \frac{\text{duration} \times v_{sound}}{2 \times 10^{4}}
-\]
-
-Where:
-
-- \(\text{duration}\): echo pulse duration in microseconds (µs)
-- \(v_{sound}\): speed of sound in air (340 m/s)
-- \(2 \times 10^{4}\) accounts for two-way travel and unit conversion to centimeters
-
-### 2. Distance Conversion (inches)
-
-\[
-\text{distanceInch} = \text{distanceCm} \times 0.393701
-\]
-
-### 3. Water Level Percentage
-
-\[
-\text{percentage} = 100 \times \left(1 - \frac{\text{distanceCm}}{\text{tankHeight}}\right)
-\]
-
-Where:
-
-- \(\text{tankHeight}\): fixed height of the water tank in centimeters
-- \(\text{distanceCm}\): measured distance from sensor to water surface in centimeters
-
+![Alt text](https://raw.githubusercontent.com/avimallik/aqua_esp8266_iot_water_level_monitoring/refs/heads/master/equation/ultrasonic_distance_measure.PNG)
 ---
 
 ## Software Details
